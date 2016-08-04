@@ -12,7 +12,7 @@ class Nav extends Component {
     <Navbar>
             <Navbar.Header>
             <Navbar.Brand>
-                <a href="#">Brand</a>
+                <a href="#">Market</a>
             </Navbar.Brand>
             <Navbar.Toggle />
             </Navbar.Header>
@@ -22,7 +22,7 @@ class Nav extends Component {
                 <FormControl type="text" placeholder="Search" />
                 </FormGroup>
                 {' '}
-                <Button type="submit">Submit</Button>
+                <Button type="submit">Search</Button>
             </Navbar.Form>
             </Navbar.Collapse>
         </Navbar>
