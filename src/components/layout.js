@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import '../App.css';
+import Nav from './Layout/nav';
+// import Body from './Layout/body'
 
 class Layout extends Component {
   render() {
     return (
       <div>
-        <h1>This is working</h1>
+        <Nav />
       </div>
     );
   }
